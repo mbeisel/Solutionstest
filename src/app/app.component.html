@@ -1,3 +1,11 @@
-<h1>
-  {{title}}
-</h1>
+<h1>{{title}}</h1>
+<h2>Name:{{selectedSolution.name}}</h2>
+<h2>Pattern:{{selectedSolution.pattern}}</h2>
+<h3>JSON:</h3>
+<div><label>{{selectedSolution.json}} </label></div>
+<h3>Yaml:</h3>
+<div><label>{{selectedSolution.yaml}} </label></div>
+<h3>Related Solutions:</h3>
+<button (click)="onSelect(selectedSolution.relatedSolutions)">{{selectedSolution.relatedSolutions}}</button>
+
+
