@@ -1,0 +1,33 @@
+{
+"properties": {
+  "name":{
+    "type":"string",
+    "placeholder":"Patternname"
+  },
+  "id":{
+    "type":"number",
+    "pattern":"^[0-9]",
+    "default":"123"
+  },
+  "pattern":{
+    "type":"string",
+    "placeholder":"Patternname"
+  },
+  "json":{
+    "type":"string"
+  },
+  "yaml":{
+    "type":"string"
+  },
+  "relatedSolutions":{
+    "type":"array",
+    "items": {
+      "type": "string"
+    }    
+  }
+}          
+"buttons": [{"label":"Send","id":"send"},{"label":"Reset","id":"reset"}],
+"required": ["id","name","pattern"],
+"order": ["id","name","pattern","json","yaml","relatedSolutions"],
+"dataname":["id","name"]
+}
