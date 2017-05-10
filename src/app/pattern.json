@@ -1,0 +1,49 @@
+{"patterns":[{
+    "id": 1,
+    "name": "Watchdog",
+    "pattern": "Watchdog",
+    "json": "WATCHDOG LONGJSON",
+    "yaml": "WATCHDOG LONGYAML",
+    "relatedSolutions": [{"id": 2}]
+  },
+  {
+    "id": 2,
+    "name": "Autoscaling",
+    "pattern": "Autoscaling",
+    "json": "Autoscaling LONGJSON",
+    "yaml": "Autoscaling LONGYAML",
+    "relatedSolutions": [{"id": 1}, {"id": 3}]
+  },
+  {
+    "id": 3,
+    "name": "ElasticLoadBalancer",
+    "pattern": "ElasticLoadBalancer",
+    "json": "ElasticLoadBalancer LONGJSON",
+    "yaml": "ElasticLoadBalancer LONGYAML",
+    "relatedSolutions": [{"id": 2}]
+  },
+  {
+    "id": 4,
+    "name": "MoM",
+    "pattern": "MoM",
+    "json": "MoM LONGJSON",
+    "yaml": "MoM LONGYAML",
+    "relatedSolutions": [{"id": 5}, {"id": 6}]
+  },
+  {
+    "id": 5,
+    "name": "Publish-Subscribe",
+    "pattern": "Publish-Subscribe",
+    "json": "Publish-Subscribe LONGJSON",
+    "yaml": "Publish-Subscribe LONGYAML",
+    "relatedSolutions": [{"id": 4}, {"id": 6}]
+  },
+  {
+    "id": 6,
+    "name": "Queues",
+    "pattern": "Queues",
+    "json": "Queues LONGJSON",
+    "yaml": "Queues LONGYAML",
+    "relatedSolutions": [{"id": 4}, {"id": 5}]
+  }]
+}
