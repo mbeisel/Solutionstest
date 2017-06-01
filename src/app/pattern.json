@@ -5,7 +5,7 @@
     "pattern": "Watchdog",
     "json": "WATCHDOG LONGJSON",
     "yaml": "WATCHDOG LONGYAML",
-    "otherSolutiontypes": [],
+    "otherSolutionTypes": [],
     "relatedPatterns": [{"id": 2}]
   },
   {
@@ -15,7 +15,7 @@
     "pattern": "Distributed_Application",
     "json": "Autoscaling LONGJSON",
     "yaml": "Autoscaling LONGYAML",
-    "otherSolutiontypes": [],
+    "otherSolutionTypes": [],
     "relatedPatterns": [{"id": 1}, {"id": 3}]
   },
   {
@@ -25,7 +25,7 @@
     "pattern": "Distributed_Application",
     "json": "ElasticLoadBalancer LONGJSON",
     "yaml": "ElasticLoadBalancer LONGYAML",
-    "otherSolutiontypes": [],
+    "otherSolutionTypes": [],
     "relatedPatterns": [{"id": 2}]
   },
   {
@@ -35,7 +35,7 @@
     "pattern": "Message_Oriented_Middleware",
     "json": "MoM LONGJSON",
     "yaml": "MoM LONGYAML",
-    "otherSolutiontypes": [],
+    "otherSolutionTypes": [],
     "relatedPatterns": [{"id": 5}, {"id": 6}]
   },
   {
@@ -45,7 +45,7 @@
     "pattern": "Message_Oriented_Middleware",
     "json": "Publish-Subscribe LONGJSON",
     "yaml": "Publish-Subscribe LONGYAML",
-    "otherSolutiontypes": [],
+    "otherSolutionTypes": [],
     "relatedPatterns": [{"id": 4}, {"id": 6}]
   },
   {
@@ -55,7 +55,7 @@
     "pattern": "Message_Oriented_Middleware",
     "json": "Queues LONGJSON",
     "yaml": "Queues LONGYAML",
-    "otherSolutiontypes": [{"id": 7}],
+    "otherSolutionTypes": [{"id": 7}],
     "relatedPatterns": [{"id": 4}, {"id": 5}]
   },
   {
@@ -65,7 +65,7 @@
     "pattern": "Message_Oriented_Middleware",
     "json": "Queues LONGJSON",
     "yaml": "Queues LONGYAML",
-    "otherSolutiontypes": [{"id": 6}],
+    "otherSolutionTypes": [{"id": 6}],
     "relatedPatterns": [{"id": 4}, {"id": 5}]
   }]
 }
