@@ -6,7 +6,7 @@
     "json": "WATCHDOG LONGJSON",
     "yaml": "WATCHDOG LONGYAML",
     "otherSolutiontypes": [],
-    "relatedSolutions": [{"id": 2}]
+    "relatedPatterns": [{"id": 2}]
   },
   {
     "id": 2,
@@ -16,7 +16,7 @@
     "json": "Autoscaling LONGJSON",
     "yaml": "Autoscaling LONGYAML",
     "otherSolutiontypes": [],
-    "relatedSolutions": [{"id": 1}, {"id": 3}]
+    "relatedPatterns": [{"id": 1}, {"id": 3}]
   },
   {
     "id": 3,
@@ -26,7 +26,7 @@
     "json": "ElasticLoadBalancer LONGJSON",
     "yaml": "ElasticLoadBalancer LONGYAML",
     "otherSolutiontypes": [],
-    "relatedSolutions": [{"id": 2}]
+    "relatedPatterns": [{"id": 2}]
   },
   {
     "id": 4,
@@ -36,7 +36,7 @@
     "json": "MoM LONGJSON",
     "yaml": "MoM LONGYAML",
     "otherSolutiontypes": [],
-    "relatedSolutions": [{"id": 5}, {"id": 6}]
+    "relatedPatterns": [{"id": 5}, {"id": 6}]
   },
   {
     "id": 5,
@@ -46,7 +46,7 @@
     "json": "Publish-Subscribe LONGJSON",
     "yaml": "Publish-Subscribe LONGYAML",
     "otherSolutiontypes": [],
-    "relatedSolutions": [{"id": 4}, {"id": 6}]
+    "relatedPatterns": [{"id": 4}, {"id": 6}]
   },
   {
     "id": 6,
@@ -56,7 +56,7 @@
     "json": "Queues LONGJSON",
     "yaml": "Queues LONGYAML",
     "otherSolutiontypes": [{"id": 7}],
-    "relatedSolutions": [{"id": 4}, {"id": 5}]
+    "relatedPatterns": [{"id": 4}, {"id": 5}]
   },
   {
     "id": 7,
@@ -66,6 +66,6 @@
     "json": "Queues LONGJSON",
     "yaml": "Queues LONGYAML",
     "otherSolutiontypes": [{"id": 6}],
-    "relatedSolutions": [{"id": 4}, {"id": 5}]
+    "relatedPatterns": [{"id": 4}, {"id": 5}]
   }]
 }
